@@ -88,16 +88,45 @@
 }
 
 .ex-4-square:hover{
-    background: none;
-    border: none;
+    /* background: none;
+    border: none; */
+    opacity: 0;
 }
 
 .ex-5-square:hover{
-    width: 120px;
-    height: 120px;
+    /* width: 120px;
+    height: 120px; */
+    transform: scale(2);
 }
 
 .ex-5-square:active{
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
+    transform: scale(0.5);
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img, .ex-8-img, .ex-9-img{
+    transition: all 5s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1);
+    filter: opacity(0.5);
+}
+
+.ex-8-img:hover{
+    filter: grayscale(1);
+    border-radius: 20px;
+    filter: opacity(0.5);
+}
+
+.ex-9-img:hover{
+    filter: grayscale(1);
+    border-radius: 20px;
+    filter: opacity(0.5);
+    transform: scale(2);
 }

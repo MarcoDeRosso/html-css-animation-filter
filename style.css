@@ -130,3 +130,34 @@
     filter: opacity(0.5);
     transform: scale(2);
 }
+
+/* inizio animazioni */
+
+.ex-10-icon{
+    animation: ruota 5s linear infinite;
+}
+
+@keyframes ruota{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(45deg);
+    }   
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+}
